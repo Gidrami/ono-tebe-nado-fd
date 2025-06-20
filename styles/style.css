@@ -161,7 +161,7 @@ a {
 .lots {
   position: relative;
   width: 1052px;
-  height: 723px;
+  min-height: 723px;
   margin: 0px 24px;
 }
 
@@ -185,7 +185,7 @@ a {
 .lots__card-list-item {
   position: relative;
   width: 334px;
-  height: 596px;
+  min-height: 596px;
 }
 
 .card-link {
@@ -210,6 +210,7 @@ a {
 }
 
 .card__text {
+  margin-top: 15px;
   font-weight: 400;
   font-size: 20px;
   line-height: 120%;
@@ -240,14 +241,12 @@ a {
 }
 
 .about {
-  top: 2073px;
-  left: 24px;
   display: grid;
   grid-template-columns: 334px 1fr;
   align-items: start;
   gap: 25px;
   width: 1052px;
-  height: 595px;
+  min-height: 595px;
   margin: 120px 24px 180px 24px;
 }
 .about__logo {
